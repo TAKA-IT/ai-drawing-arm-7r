@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# ROS 2
+build/
+install/
+log/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Runtime output
+*.log
+*.bag
+*.db3
+
+# Temporary and backup files
+*.bak
+*.before_*
+*.pre_*
+*.shape_final
+*.square_working
+*~
+
+# Videos and generated documents
+*.mov
+*.mp4
+*.avi
+*.mkv
+*.pdf
+*.docx
+
+# Credentials and local settings
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
